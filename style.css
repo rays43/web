@@ -1,0 +1,63 @@
+body{
+    margin: 0;
+    background-color: #A2678A;
+}
+
+.nav{
+    background-color: #E19898;
+    padding: 15px 20px;
+    box-shadow: 0 0 5px 3px rgba(0,0,0,0.5);
+}
+
+.brand-container{
+    display: inline-block;
+}
+
+#brand-name{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    margin: 0;
+    left: 20px;
+    color: #4D3C77;
+    font-size: 30px;
+}
+
+.brand-links{
+    float: right;
+    position: relative;
+    top: 8px;
+    margin-right: 20px;
+    
+}
+
+.link{
+    text-decoration: none;
+    color: #4D3C77;
+    font-size: 30px;
+    font-weight: bold;
+    transition: 0.5s;
+    padding: 0 10px;
+}
+
+.link:hover{
+    color: #3F1D38;
+}
+
+.btn-link{
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: #3F1D38;
+    border-radius: 25px;
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    transition: 0.5s;
+}
+
+.btn-link:hover{
+    background-color: #4D3C77;
+    color: gold;
+    font-weight: bold;
+    padding: 5px 20px;
+}
